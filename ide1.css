@@ -1,0 +1,163 @@
+/* PRINCIPALE */
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: rgb(56, 55, 55);
+}
+
+
+/* HEADER */
+
+header nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    
+  }
+  
+  header nav a {
+    float: right;
+    color:rgba(83, 75, 75, 0.541);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  header nav a:hover {
+    background-color: white;
+    color: rgba(128, 128, 128, 0.644);
+  }
+  
+  header nav a.menu {
+      background-color: white;
+    color: rgb(0, 119, 255);
+  }
+
+  header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;  
+    margin-left: 20%; 
+    
+    }
+
+    header nav ul li:hover ul{
+        display: flex;
+        margin-left: 20px;
+      }
+      
+      
+      header .menu{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+.logo{
+    width: 15em;
+    height: 70px;
+    position: relative;
+    top: 1em;   
+}
+
+
+/* ACCUEIL */
+
+section{
+    padding:2%;
+}
+
+article{
+    display: inline-flex;
+  flex-direction: row;
+ 
+  
+}
+
+article h1{
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100em;
+    color: wheat;
+    margin-left: 4%;
+}
+
+article p{
+    overflow: hidden;
+    color: white;
+    margin: auto;
+    word-wrap: break-word; 
+    font-family: cursive;
+    font-size: 70%;
+}
+
+.image1{
+    width:600px;
+    height:400px;
+    box-shadow: 10px 5px 5px white;
+
+}
+
+span{
+    color: tomato;
+}
+
+.photo{
+    margin-left: 15%;
+   
+}
+
+.section2{
+  background-color: white;
+}
+
+.article2 p{
+  color: black;
+  font-size: 100%;
+
+}
+
+.article3{
+  display: flex;
+flex-direction: row-reverse;
+padding: 2%;
+
+}
+
+.image2{
+  width:520px;
+  height:400px;
+  margin-left: 7%;
+
+}
+
+.article3 p{
+  color: white;
+  font-size: 80%;
+  font-family: cursive;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.article3 h1{
+  color: brown;
+  font-size: 120%;
+  text-align: center;
+}
+
+.video{
+  margin-left: 2%;
+}
+
+.article4 p{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration:underline;
+  
+}
